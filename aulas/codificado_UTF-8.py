@@ -10,3 +10,9 @@ Para declarar uma codificação diferente da padrão, uma linha de comentário e
 
 
 print('ofereça')
+
+
+
+"""
+# -*- coding: utf-8 -*-: Usado para especificar a codificação UTF-8, amplamente utilizada e suporta uma variedade mais ampla de caracteres
+"""
