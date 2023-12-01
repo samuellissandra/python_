@@ -25,4 +25,4 @@ res --> 128
 
 largura = 20
 altura = 5 * 9
-print(f'{largura} , {altura}')
+print(f'Esse é o resultado da largura vezes a altura = {largura * altura}.')
