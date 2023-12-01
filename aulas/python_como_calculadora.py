@@ -36,6 +36,8 @@ print(f'Valor do resulatdo = {preço*imposto}')
 No modo interativo, a última expressão impressa é atribuída à variável . Isso significa que quando você está usando Python como uma calculadora de mesa, é um pouco mais fácil de continuar os cálculos, por exemplo: _
 returno = preço + _ # aqui vai mostra o valor do preço + resultado
 print(returno)
+
+Essa variável deve ser tratada como somente leitura pelo usuário. Não explicitamente atribuir um valor a ele — você criaria uma variável local independente com o mesmo nome mascarando a variável interna com seu comportamento mágico
 """
 
 
