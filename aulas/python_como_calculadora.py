@@ -26,3 +26,16 @@ res --> 128
 largura = 20
 altura = 5 * 9
 print(f'Esse é o resultado da largura vezes a altura = {largura * altura}.')
+
+imposto = 12.5 / 100 # Não pode usar , exemplo 12,5 é sempre ponto 12.5
+preço = 100.50
+print(f'Valor do resulatdo = {preço*imposto}')
+
+# OBS
+"""
+No modo interativo, a última expressão impressa é atribuída à variável . Isso significa que quando você está usando Python como uma calculadora de mesa, é um pouco mais fácil de continuar os cálculos, por exemplo: _
+returno = preço + _ # aqui vai mostra o valor do preço + resultado
+print(returno)
+"""
+
+
