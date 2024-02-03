@@ -16,6 +16,5 @@ with open(r"C:\Users\samue\OneDrive\Documentos\GitHub\python_\aulas\resultados.j
         for num in dados['dados']:
             novo = int(num)
             meus.add(novo)
-            cont += 1
-        
+            cont += 1  
 print(cont)
